@@ -1,15 +1,14 @@
-import React from 'react';
-import EmployeeList from './EmployeeList';
-import './style.css';
-const App = () => {
-  const employees = ['Elnas', 'Bob', 'Robber'];
+import React from "react";
+import TimeTracker from "./TimeTracker";
+import "./App.css";
 
+function App() {
   return (
-    <div className="App">
-      <h1>Ellry Cafe - Employee Time Tracker</h1>
-      <EmployeeList employees={employees} />
+    <div className="app-container">
+      <h1>Ellry Cafe Employee Time Tracker</h1>
+      <TimeTracker />
     </div>
   );
-};
+}
 
 export default App;
